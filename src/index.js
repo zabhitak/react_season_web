@@ -48,7 +48,7 @@ class App extends React.Component {
     return <Spinner message="Please accept location request" />;
   }
   render() {
-    return <div className="border red">{this.renderContent()}</div>;
+    return <div>{this.renderContent()}</div>;
   }
 }
 
